@@ -1,16 +1,11 @@
 <template>
-  <div>Home</div>
-  <Test />
+  <h2>三國志戰略版</h2>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import Test from '../components/Test.vue'
 
 export default defineComponent({
-  name: 'Home',
-  components: {
-    Test
-  }
+  name: 'Home'
 })
 </script>

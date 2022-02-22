@@ -1,0 +1,20 @@
+[
+  {
+    "name": "呂布",
+    "type": "軍事",
+    "skill": { "self": "天下無雙", "inherited": "一騎當千" },
+    "arms": [
+      { "job": "騎", "value": "S" },
+      { "job": "盾", "value": "B" },
+      { "job": "弓", "value": "S" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 100, "coefficient": 3.04 },
+      { "attr": "智力", "value": 26, "coefficient": 0.27 },
+      { "attr": "統率", "value": 97, "coefficient": 1.4 },
+      { "attr": "速度", "value": 74, "coefficient": 1.41 }
+    ]
+  }
+]

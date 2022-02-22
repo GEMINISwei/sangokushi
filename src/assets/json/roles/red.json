@@ -1,0 +1,353 @@
+[
+  {
+    "name": "孫權",
+    "type": "軍事",
+    "skill": { "self": "坐斷東南", "inherited": "臥薪嚐膽" },
+    "arms": [
+      { "job": "騎", "value": "S" },
+      { "job": "盾", "value": "B" },
+      { "job": "弓", "value": "S" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 67, "coefficient": 1.71 },
+      { "attr": "智力", "value": 80, "coefficient": 1.36 },
+      { "attr": "統率", "value": 79, "coefficient": 1.69 },
+      { "attr": "速度", "value": 77, "coefficient": 0.83 }
+    ]
+  },
+  {
+    "name": "孫堅",
+    "type": "軍事",
+    "skill": { "self": "江東猛虎", "inherited": "挫銳" },
+    "arms": [
+      { "job": "騎", "value": "A" },
+      { "job": "盾", "value": "S" },
+      { "job": "弓", "value": "B" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 90, "coefficient": 2 },
+      { "attr": "智力", "value": 79, "coefficient": 0.83 },
+      { "attr": "統率", "value": 94, "coefficient": 2.05 },
+      { "attr": "速度", "value": 34, "coefficient": 0.45 }
+    ]
+  },
+  {
+    "name": "孫策",
+    "type": "軍事",
+    "skill": { "self": "江東小霸王", "inherited": "破陣摧堅" },
+    "arms": [
+      { "job": "騎", "value": "S" },
+      { "job": "盾", "value": "B" },
+      { "job": "弓", "value": "A" },
+      { "job": "槍", "value": "S" },
+      { "job": "車", "value": "A" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 92, "coefficient": 2.07 },
+      { "attr": "智力", "value": 74, "coefficient": 1.06 },
+      { "attr": "統率", "value": 96, "coefficient": 1.37 },
+      { "attr": "速度", "value": 32, "coefficient": 0.76 }
+    ]
+  },
+  {
+    "name": "周瑜",
+    "type": "軍事",
+    "skill": { "self": "神火計", "inherited": "風助火勢" },
+    "arms": [
+      { "job": "騎", "value": "B" },
+      { "job": "盾", "value": "A" },
+      { "job": "弓", "value": "S" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 71, "coefficient": 0.47 },
+      { "attr": "智力", "value": 96, "coefficient": 2.62 },
+      { "attr": "統率", "value": 95, "coefficient": 1.66 },
+      { "attr": "速度", "value": 42, "coefficient": 0.67 }
+    ]
+  },{
+    "name": "呂蒙",
+    "type": "軍事",
+    "skill": { "self": "白衣渡江", "inherited": "士別三日" },
+    "arms": [
+      { "job": "騎", "value": "B" },
+      { "job": "盾", "value": "B" },
+      { "job": "弓", "value": "A" },
+      { "job": "槍", "value": "S" },
+      { "job": "車", "value": "S" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 81, "coefficient": 1.68 },
+      { "attr": "智力", "value": 89, "coefficient": 1.95 },
+      { "attr": "統率", "value": 91, "coefficient": 1.35 },
+      { "attr": "速度", "value": 37, "coefficient": 0.59 }
+    ]
+  },
+  {
+    "name": "陸遜",
+    "type": "軍事",
+    "skill": { "self": "火燒連營", "inherited": "熯天熾地" },
+    "arms": [
+      { "job": "騎", "value": "C" },
+      { "job": "盾", "value": "B" },
+      { "job": "弓", "value": "S" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "A" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 69, "coefficient": 0.42 },
+      { "attr": "智力", "value": 95, "coefficient": 2.6 },
+      { "attr": "統率", "value": 94, "coefficient": 1.88 },
+      { "attr": "速度", "value": 39, "coefficient": 0.72 }
+    ]
+  },
+  {
+    "name": "甘寧",
+    "type": "軍事",
+    "skill": { "self": "錦帆百翎", "inherited": "百騎劫營" },
+    "arms": [
+      { "job": "騎", "value": "A" },
+      { "job": "盾", "value": "A" },
+      { "job": "弓", "value": "S" },
+      { "job": "槍", "value": "S" },
+      { "job": "車", "value": "S" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 94, "coefficient": 2.6 },
+      { "attr": "智力", "value": 76, "coefficient": 0.45 },
+      { "attr": "統率", "value": 93, "coefficient": 1.57 },
+      { "attr": "速度", "value": 72, "coefficient": 0.7 }
+    ]
+  },
+  {
+    "name": "太史慈",
+    "type": "軍事",
+    "skill": { "self": "神射", "inherited": "折衝禦侮" },
+    "arms": [
+      { "job": "騎", "value": "S" },
+      { "job": "盾", "value": "C" },
+      { "job": "弓", "value": "S" },
+      { "job": "槍", "value": "B" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 93, "coefficient": 2.09 },
+      { "attr": "智力", "value": 69, "coefficient": 1.01 },
+      { "attr": "統率", "value": 90, "coefficient": 1.39 },
+      { "attr": "速度", "value": 67, "coefficient": 1.11 }
+    ]
+  },
+  {
+    "name": "程普",
+    "type": "軍事",
+    "skill": { "self": "勇烈持重", "inherited": "克敵制勝" },
+    "arms": [
+      { "job": "騎", "value": "B" },
+      { "job": "盾", "value": "A" },
+      { "job": "弓", "value": "A" },
+      { "job": "槍", "value": "S" },
+      { "job": "車", "value": "B" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 79, "coefficient": 1.19 },
+      { "attr": "智力", "value": 79, "coefficient": 1.44 },
+      { "attr": "統率", "value": 84, "coefficient": 2.06 },
+      { "attr": "速度", "value": 54, "coefficient": 0.89 }
+    ]
+  },
+  {
+    "name": "黃蓋",
+    "type": "軍事",
+    "skill": { "self": "苦肉計", "inherited": "風助火勢" },
+    "arms": [
+      { "job": "騎", "value": "B" },
+      { "job": "盾", "value": "A" },
+      { "job": "弓", "value": "S" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "B" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 83, "coefficient": 1.41 },
+      { "attr": "智力", "value": 70, "coefficient": 1.27 },
+      { "attr": "統率", "value": 80, "coefficient": 1.68 },
+      { "attr": "速度", "value": 31, "coefficient": 0.54 }
+    ]
+  },
+  {
+    "name": "張昭",
+    "type": "內政",
+    "skill": { "self": "功勳克舉", "inherited": "兵鋒" },
+    "arms": [
+      { "job": "騎", "value": "C" },
+      { "job": "盾", "value": "C" },
+      { "job": "弓", "value": "C" },
+      { "job": "槍", "value": "B" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "政治", "value": 97, "coefficient": 2.68 },
+      { "attr": "魅力", "value": 80, "coefficient": 0.87 }
+    ]
+  },
+  {
+    "name": "大喬",
+    "type": "內政",
+    "skill": { "self": "國色", "inherited": "魅惑" },
+    "arms": [
+      { "job": "騎", "value": "C" },
+      { "job": "盾", "value": "C" },
+      { "job": "弓", "value": "B" },
+      { "job": "槍", "value": "C" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "政治", "value": 78, "coefficient": 1.1 },
+      { "attr": "魅力", "value": 92, "coefficient": 2.4 }
+    ]
+  },
+  {
+    "name": "小喬",
+    "type": "內政",
+    "skill": { "self": "天香", "inherited": "奪魂挾魄" },
+    "arms": [
+      { "job": "騎", "value": "C" },
+      { "job": "盾", "value": "C" },
+      { "job": "弓", "value": "B" },
+      { "job": "槍", "value": "C" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "政治", "value": 77, "coefficient": 1.05 },
+      { "attr": "魅力", "value": 92, "coefficient": 2.35 }
+    ]
+  },
+  {
+    "name": "孫尚香",
+    "type": "軍事",
+    "skill": { "self": "弓腰姬", "inherited": "結盟" },
+    "arms": [
+      { "job": "騎", "value": "S" },
+      { "job": "盾", "value": "B" },
+      { "job": "弓", "value": "S" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 86, "coefficient": 2.39 },
+      { "attr": "智力", "value": 70, "coefficient": 1.18 },
+      { "attr": "統率", "value": 76, "coefficient": 1.26 },
+      { "attr": "速度", "value": 73, "coefficient": 1.11 }
+    ]
+  },
+  {
+    "name": "張紘",
+    "type": "內政",
+    "skill": { "self": "奇施經略", "inherited": "智計" },
+    "arms": [
+      { "job": "騎", "value": "C" },
+      { "job": "盾", "value": "C" },
+      { "job": "弓", "value": "B" },
+      { "job": "槍", "value": "C" },
+      { "job": "車", "value": "A" }
+    ],
+    "attrs": [
+      { "attr": "政治", "value": 95, "coefficient": 2.67 },
+      { "attr": "魅力", "value": 82, "coefficient": 0.84 }
+    ]
+  },
+  {
+    "name": "凌統",
+    "type": "軍事",
+    "skill": { "self": "國士將風", "inherited": "橫戈躍馬" },
+    "arms": [
+      { "job": "騎", "value": "S" },
+      { "job": "盾", "value": "B" },
+      { "job": "弓", "value": "C" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 89, "coefficient": 1.97 },
+      { "attr": "智力", "value": 60, "coefficient": 0.97 },
+      { "attr": "統率", "value": 77, "coefficient": 1.51 },
+      { "attr": "速度", "value": 67, "coefficient": 1.48 }
+    ]
+  },
+  {
+    "name": "魯肅",
+    "type": "軍事",
+    "skill": { "self": "濟貧好施", "inherited": "奇計良謀" },
+    "arms": [
+      { "job": "騎", "value": "B" },
+      { "job": "盾", "value": "A" },
+      { "job": "弓", "value": "A" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "A" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 56, "coefficient": 0.38 },
+      { "attr": "智力", "value": 92, "coefficient": 2.06 },
+      { "attr": "統率", "value": 84, "coefficient": 1.45 },
+      { "attr": "速度", "value": 65, "coefficient": 1.02 }
+    ]
+  },
+  {
+    "name": "周泰",
+    "type": "軍事",
+    "skill": { "self": "肉身鐵壁", "inherited": "一力拒守" },
+    "arms": [
+      { "job": "騎", "value": "S" },
+      { "job": "盾", "value": "S" },
+      { "job": "弓", "value": "A" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 91, "coefficient": 1.91 },
+      { "attr": "智力", "value": 48, "coefficient": 0.77 },
+      { "attr": "統率", "value": 84, "coefficient": 2.08 },
+      { "attr": "速度", "value": 53, "coefficient": 0.84 }
+    ]
+  },
+  {
+    "name": "陸抗",
+    "type": "軍事",
+    "skill": { "self": "校勝帷幄", "inherited": "乘勝長驅" },
+    "arms": [
+      { "job": "騎", "value": "A" },
+      { "job": "盾", "value": "B" },
+      { "job": "弓", "value": "S" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "S" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 63, "coefficient": 0.67 },
+      { "attr": "智力", "value": 87, "coefficient": 2.04 },
+      { "attr": "統率", "value": 91, "coefficient": 2.02 },
+      { "attr": "速度", "value": 51, "coefficient": 0.62 }
+    ]
+  },
+  {
+    "name": "周瑜SP",
+    "type": "軍事",
+    "skill": { "self": "江天長焰", "inherited": "焰逐風飛" },
+    "arms": [
+      { "job": "騎", "value": "B" },
+      { "job": "盾", "value": "A" },
+      { "job": "弓", "value": "S" },
+      { "job": "槍", "value": "A" },
+      { "job": "車", "value": "C" }
+    ],
+    "attrs": [
+      { "attr": "武力", "value": 71, "coefficient": 1.04 },
+      { "attr": "智力", "value": 96, "coefficient": 2.62 },
+      { "attr": "統率", "value": 95, "coefficient": 1.66 },
+      { "attr": "速度", "value": 42, "coefficient": 0.67 }
+    ]
+  }
+]
