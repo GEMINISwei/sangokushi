@@ -1,8 +1,8 @@
 // Pagination
 interface PaginationItem {
   text: string,
-  class: Object,
-  method: PaginationMethod
+  class?: Object,
+  method?: PaginationMethod
 }
 
 interface PaginationMethod {

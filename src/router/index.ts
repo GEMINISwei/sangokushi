@@ -2,18 +2,32 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
 import Roles from "@/views/Roles.vue";
 import Skills from "@/views/Skills.vue";
+import NotFound from "@/views/NotFound.vue";
 
 const comopnents = [
   Home,
   Roles,
-  Skills
+  Skills,
+  NotFound
 ]
 
 const router = createRouter({
   history: createWebHistory(),
   routes: comopnents.map(comopnent => {
+    let pageUrl
     const baseUrl = '/sangokushi'
-    const pageUrl = baseUrl + (comopnent.name == 'Home' ? '/' : `/${comopnent.name.toLowerCase()}`)
+
+    switch (comopnent.name) {
+      case 'Home':
+        pageUrl = `${baseUrl}/`
+        break;
+      case 'NotFound':
+        pageUrl = `${baseUrl}/:pathMatch(.*)*`
+        break;
+      default:
+        pageUrl = `${baseUrl}/${comopnent.name.toLowerCase()}`
+        break;
+    }
 
     return {
       path: pageUrl,
